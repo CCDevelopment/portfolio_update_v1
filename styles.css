@@ -174,11 +174,24 @@ a.social:hover {
 
 .experience {
    text-align: center;
-   background: url('images/festival-1539083_1280.jpg') no-repeat top center ;
+   background: url('images/festival-1539083_1280.jpg') no-repeat;
    background-size: cover;
    overflow: hidden;
    padding-top: 60px;
  }
+
+.Project-profile-image {
+   padding: 1px;
+   border-radius: 10%;
+   max-width: 300px;
+ }
+
+.Project-profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    max-width: 300px;
+  }
 
 /**** END PAGE: EXPERIENCE *****/
 

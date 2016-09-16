@@ -195,6 +195,27 @@ a.social:hover {
 
 /**** END PAGE: EXPERIENCE *****/
 
+/***************************************
+ PAGE: Reach Me
+***************************************/
+
+.reachmeheader {
+   text-align: center;
+   background: url('images/reachmebanner.jpg') no-repeat;
+   background-size: cover;
+   overflow: hidden;
+   padding-top: 60px;
+ }
+
+ul.contactdetails {
+   list-style: none;
+   color: darkgrey;
+ }
+
+/*The responsive GET IN TOUCH tag and location styles for this page are located in the media query*/
+
+/**** END PAGE: REACH ME*****/
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
@@ -230,6 +251,33 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  .tagreachme {
+    background-color: #efefef;
+    color: #848484;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 15% 0% 2% 40%;
+  }
+
+  .locationreachme {
+    background-color: #003667;
+    color: #fff;
+    margin-top: 1%;
+    max-width: 40%;
+  }
+
+  .contactcard {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 1000px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
   }
 
 }
